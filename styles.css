@@ -1,0 +1,115 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #0073e6;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 100%; 
+    height: auto;   
+    border-radius: 50%;
+}
+
+.section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li p {
+    margin: 0;
+}
+
+.Profile {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Profile p {
+    margin-bottom: 10px;
+}
+
+.Profile a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.Profile a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header img {
+        max-width: 100px;
+    }
+
+    .section, .Profile {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    ul li {
+        font-size: 0.9em;
+    }
+
+}
